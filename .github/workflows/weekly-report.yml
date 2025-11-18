@@ -3,11 +3,11 @@ name: 📊 Generate Weekly Report
 # Automatically generate weekly reports from GitHub Projects V2
 # Issue #5 Phase A: Data Persistence Layer
 
-on:
-  schedule:
-    # Run every Monday at 9:00 AM UTC (6:00 PM JST)
-    - cron: '0 9 * * 1'
-  workflow_dispatch:
+# on:
+#  schedule:
+#    # Run every Monday at 9:00 AM UTC (6:00 PM JST)
+#    - cron: '0 9 * * 1'
+#  workflow_dispatch:
 
 permissions:
   issues: write
